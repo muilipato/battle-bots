@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/battle-bots/static/css/main.073c9b0a.css",
-    "main.js": "/battle-bots/static/js/main.6edca1a0.js",
-    "static/js/787.9f44978d.chunk.js": "/battle-bots/static/js/787.9f44978d.chunk.js",
-    "static/media/logo.svg": "/battle-bots/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/battle-bots/static/css/main.f47afbd6.css",
+    "main.js": "/battle-bots/static/js/main.97db2f5d.js",
     "index.html": "/battle-bots/index.html",
-    "main.073c9b0a.css.map": "/battle-bots/static/css/main.073c9b0a.css.map",
-    "main.6edca1a0.js.map": "/battle-bots/static/js/main.6edca1a0.js.map",
-    "787.9f44978d.chunk.js.map": "/battle-bots/static/js/787.9f44978d.chunk.js.map"
+    "main.f47afbd6.css.map": "/battle-bots/static/css/main.f47afbd6.css.map",
+    "main.97db2f5d.js.map": "/battle-bots/static/js/main.97db2f5d.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.6edca1a0.js"
+    "static/css/main.f47afbd6.css",
+    "static/js/main.97db2f5d.js"
   ]
 }
