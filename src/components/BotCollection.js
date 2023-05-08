@@ -2,7 +2,7 @@ import DisplayBot from './DisplayBot';
 
 function BotCollection({data, handleAddViewBot}){
     
-    return(s
+    return(
         <div className='botCollection'>
             {data.map((bot)=>{
                 return (
