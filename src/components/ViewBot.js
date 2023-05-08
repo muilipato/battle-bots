@@ -1,5 +1,5 @@
 import DisplayBot from "./DisplayBot";
-function ViewBot({doc=null, setDoc =()=>{}}) {
+function ViewBot({doc=null,  removeViewBot =() =>{}}) {
     if(doc===null){
         return null;
 
@@ -7,9 +7,7 @@ function ViewBot({doc=null, setDoc =()=>{}}) {
     function handleEnlist(){
 
     }
-    function handleGoBack(){
-
-    }
+   
     return (
         <div>
           <DisplayBot bot={doc}/>
@@ -17,7 +15,7 @@ function ViewBot({doc=null, setDoc =()=>{}}) {
             <button onClick={handleEnlist}>Enlist</button>
           </p>
           <p>
-            <button onClick={handleGoBack}>Go Back</button>
+            <button onClick={removeViewBot}>Go Back</button>
           </p>
         </div>
     )

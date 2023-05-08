@@ -1,7 +1,7 @@
 import React from 'react';
-function DisplayBot({bot}){
+function DisplayBot({bot, handleAddViewBot=() =>{}}){
     return(
-        <div className="single-bot">
+        <div className="single-bot" onClick={ () => {handleAddViewBot(bot)}}>
             <img className='bot-image' src={bot.avatar_url}/>
             <p><strong>Name: {bot.name}</strong></p>
             <p>{bot.catchphrase}</p>

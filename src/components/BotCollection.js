@@ -1,12 +1,12 @@
 import DisplayBot from './DisplayBot';
 
-function BotCollection({data}){
+function BotCollection({data, handleAddViewBot}){
     
-    return(
+    return(s
         <div className='botCollection'>
             {data.map((bot)=>{
                 return (
-                    <DisplayBot key ={bot.id} bot={bot} />
+                    <DisplayBot key ={bot.id} bot={bot} handleAddViewBot={handleAddViewBot}  />
                     
                 )
 
